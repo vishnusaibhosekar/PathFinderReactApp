@@ -44,7 +44,7 @@ export default function Navbar() {
             setalgo(e.target.value)
           }}>
           <option value=''>Choose Your Algorithm</option>
-          <option value="BDS">BDS</option>
+          <option value="BDS">DFS</option>
           <option value="BFS">BFS</option>
           </select>
         </div>
