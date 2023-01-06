@@ -27,12 +27,6 @@ export default function Navbar() {
         }}>
         <i className="bi bi-bricks"></i>
         </button>
-        <button type="button" className={['btn' ,'btn-primary', mode=='addweight'? 'selected' : ''].join(' ')} onClick={()=>{
-          if(mode == 'addweight') setmode(null)
-          else {setmode('addweight')}
-        }}>
-        <i className="bi bi-virus"></i>
-        </button>
         <button type="button" className="btn btn-primary" onClick={()=>{setres((old)=>{ return !old})}}>
         <i className="bi bi-arrow-counterclockwise"></i> 
         </button>
